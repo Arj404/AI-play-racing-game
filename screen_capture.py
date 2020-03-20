@@ -22,4 +22,4 @@ def process_img(image):
     processed_img =  cv2.Canny(processed_img, threshold1 = 200, threshold2=300)
     return processed_img
 
-screen_record()
+# screen_record()
